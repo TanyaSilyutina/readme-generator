@@ -1,4 +1,4 @@
-Check out my [GitHub page]("https://github.com/tanyasilyutina")
+Check out my [GitHub page](https://github.com/tanyasilyutina)
 # 09 Node.js Challenge: Professional README Generator
 
 ## Your Task
