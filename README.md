@@ -23,7 +23,7 @@ You can view the [video demo here](https://drive.google.com/file/d/1-OoT7a9xA2YQ
 N/A
 
 ## Features
-The application features an extended list of licenses. When a user picks a license, a license badge is displayed at the README header. 
+The application features an extended list of licenses. When a user picks a license, the license badge is displayed at the README header. 
 Please see badge examples below:
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-lightblue.svg)](https://opensource.org/licenses/Apache-2.0)
