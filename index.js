@@ -4,6 +4,9 @@ const fs = require("fs");
 function licenseCheck(arg){
     return `[![License: ${arg}](https://img.shields.io/badge/License-${arg}-lightblue.svg)](https://opensource.org/licenses/${arg})`;
 }
+function addImg(arg){
+    return `![application view](${arg})`;
+}
 inquirer
     .prompt([
         {
@@ -13,12 +16,17 @@ inquirer
         },
         {
             type: 'input',
-            message: "Please provide a short description of your project: ",
+            message: "Provide a path of an image that demonstrates your application:",
+            name: 'img',
+        },
+        {
+            type: 'input',
+            message: "Please add a short description of your project:",
             name: 'description',
         },
         {
             type: 'input',
-            message: 'What are the steps required to install your project? ',
+            message: 'What are the steps required to install your project?',
             name: 'installation',
         },
         {
@@ -54,6 +62,7 @@ inquirer
         },
     ]).then(answers => {
     const licenseBadge = licenseCheck(answers.license);
+    const img = addImg(answers.img)
     const myREADME =
         `# ${answers.title}
 ${licenseBadge}
@@ -70,6 +79,7 @@ ${answers.description}
 ${answers.installation}
 ## Usage
 ${answers.usage}
+${img}
 ## License
 Licensed under the ${answers.license} license.       
 ## How to Contribute
@@ -84,7 +94,7 @@ Please email me at *[${answers.email}](mailto:${answers.email})* with additional
         if(err){
             throw err;
         }
-        console.log("Success");
+        console.log("Success. Access your file in the 'utils' folder.");
     })
 })
 
