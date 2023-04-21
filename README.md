@@ -5,7 +5,7 @@ The professional README generator allows users to quickly and easily create a RE
 It lets the project creator devote more time to working on their project. 
 The README generator is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
-Please see a [generated README example here](https://github.com/TanyaSilyutina/readme-generator/blob/main/utils/generateMarkdown.md)
+Please see a [generated README example here](https://github.com/TanyaSilyutina/readme-generator/blob/main/utils/generateMarkdown.md).
 
 ![App Terminal View](imgs/readme_generator.png)
 ## Installation
