@@ -13,7 +13,10 @@ Since the README generator is a command-line application, I would recommend runn
 Clone the repo, and open the code in the code editor, and follow the terminal instructions.
 
 ## Usage
-Please see a screenshot of the app's functionality below. The application is invoked by using the following command in the terminal: node index.js. 
+Please see a screenshot of the app's functionality below. The application is invoked by using the following command in the terminal: 
+```bash
+node index.js
+```
 The terminal will present a number of prompts. After user provides answers to the prompts, a markdown file will be generated in their code editor. 
 The newly generated file reflects user's responses and styles them in the format of a professional README.
 
