@@ -9,20 +9,18 @@ Please see a [generated README example here](https://github.com/TanyaSilyutina/r
 
 ![App Terminal View](imgs/readme_generator.png)
 ## Installation
-Since the README generator is a command-line application, I would recommend running it in your code editor. 
-Clone the repo, and open the code in the code editor, and follow the terminal instructions.
+1. [Fork](https://github.com/TanyaSilyutina/readme-generator/fork) this repository.
+2. In your terminal, clone your fork using `git clone <link to your fork>`.
+3. In the project directory, run `npm i inquirer@8.2.4` to add node_modules folder.
 
 ## Usage
-Please see a screenshot of the app's functionality below. The application is invoked by using the following command in the terminal: 
-```bash
-node index.js
-```
+The application is invoked by using `node index.js` in the terminal. Please see a gif of the app's functionality below.
 The terminal will present a number of prompts. After user provides answers to the prompts, a markdown file will be generated in their code editor. 
 The newly generated file reflects user's responses and styles them in the format of a professional README.
 
 You can view the [video demo here](https://drive.google.com/file/d/1-OoT7a9xA2YQ-f9JpzJ-0uGfRp4xDdCj/view).
 
-![App Usage View](imgs/Readme%20Generator.gif)
+![App Usage View](imgs/README%20Generator%202.gif)
 
 ## License
 N/A
